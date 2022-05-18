@@ -365,6 +365,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   background: #069f1f;
 }
+ .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
 #hero .btn-get-started:hover {
   background: #0ab226;
 }
@@ -381,6 +384,10 @@ h1, h2, h3, h4, h5, h6 {
   #hero h2 {
     font-size: 20px;
     line-height: 24px;
+  }
+  #hero .animated {
+    -webkit-animation: none;
+    animation: none;
   }
   #hero .hero-img {
     max-width: 90%;
